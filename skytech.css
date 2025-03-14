@@ -1,0 +1,1668 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Nunito, sans-serif;
+    background-color: black;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.17em;
+}
+h4,p{
+    font-size: 1em;
+}
+h5{
+    font-size: 0.83em ;
+}
+h6{
+    font-size: 0.67em;
+}
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.first-line {
+    display: flex;
+}
+.skytech-logo {
+    padding-left: 30px;
+}
+.skytech-logo img {
+    filter: invert(1);
+    width: 60px;
+}
+.name h2 {
+    font-family: Nunito, sans-serif;
+}
+.name {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.tools {
+    display: flex;
+    color: white;
+    padding-top: 20px;
+}
+.right {
+    padding-right: 40px;
+    padding-top: 1px
+}
+.joinnow {
+    padding-right: 15px;
+    font-size: 12px;
+}
+.contact {
+    padding-right: 40px;
+    padding-top: 3px;
+    font-size: 10px;
+}
+.contact :hover {
+    color: orange;
+}
+.down {
+    padding-right: 20px;
+    font-size: 17px;
+    padding-top: 1px;
+}
+.down :hover {
+    color: orange;
+}
+.about {
+    padding-right: 10px;
+    font-size: 10px;
+    padding-top: 3px;
+    z-index: 1;
+}
+.about :hover {
+    color: orange;
+}
+.courses {
+    padding-right: 20px;
+    padding-top: 4px;
+    font-size: 10px;
+}
+.courses:hover {
+    color: orange;
+}
+.dhruvp {
+    display: flex;
+    position: relative;
+}
+.drop-down {
+    display: none;
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: black;
+    width: 160px;
+    z-index: 2;
+}
+.dhruv:hover .drop-down {
+    display: block;
+}
+.d1,.d2,.d3{
+    padding-left: 10px;
+}
+.d1:hover {
+    background-color: orange;
+    color: black;
+}
+.d2:hover {
+    background-color: orange;
+    color: black;
+}
+.d3:hover {
+    background-color: orange;
+    color: black;
+}
+.home {
+    padding-right: 20px;
+    font-size: 10px;
+    padding-top: 3px;
+    color: orange;
+}
+.sliderimg img,.sliderimg2 img{
+    filter: brightness(0.4);
+    object-position: -295px;
+}
+.caption1{
+    color: orange;
+    font-size: 25px;
+}
+.carousel-caption{
+    top:220px;
+    left: 100px;
+    text-align: left;
+}
+.caption2{
+    font-size: 70px;
+    width: 900px;
+}
+.caption3{
+    font-size: 18px;
+    width: 700px;
+}
+.sliderbutton{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+.silderbutton1{
+    width:130px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    height: 50px;
+    padding:11px 15px;
+}
+.sliderbutton2{
+    width: 130px;
+    background-color: orange;
+    color: white;
+    margin-left: 20px;
+    padding:11px 15px;
+    font-size: 18px;
+    height: 50px;
+}
+.caption4{
+    color: orange;
+    font-size: 25px;
+}
+.caption5{
+    font-size: 70px;
+}
+.caption6{
+    font-size: 23px;
+}
+.sliderbutton3{
+    width: 130px;
+    background-color: orange;
+    color: white;
+    padding:11px 15px;
+    font-size: 18px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+    background-color: orange;
+    color: white;
+}
+.carousel-control-prev{
+    left: auto;
+    right: 110px;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    top: 350px;
+}
+.carousel-control-next{
+    left: auto;
+    right: 110px;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    top: 400px;
+}
+.allaboutskytech {
+    height: 1000px;
+    background-color: black;
+}
+.inskytech{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.skilled, .Training, .Project,.Placements{
+    background-color: white;
+    height: 280px;
+    color: orange;
+    width: 100%;
+    margin-top: 50px;
+}
+.skilled{
+    margin-left: 90px;
+}
+.Placements{
+    background-color: white;
+    height: 280px;
+    margin-top: 50px;
+    margin-right: 90px;    
+}
+.skilled i,.Training i,.Placements i{
+    font-size: 40px;
+    padding-top: 30px;
+    color: black;
+}
+.Project img{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.skilled h3,.Training h3,.Placements h3,.Project h3{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.skilled h4,.Training h4,.Placements h4,.Project h4{
+    font-size: 18px;
+    padding-top: 30px;
+    padding: 15PX;
+}
+.Placements:hover,.Project:hover,.Training:hover,.skilled:hover{
+    background-color: orange;
+    color: black;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    padding:  0 110px;
+}
+.aboutimg img{
+    height: 100%;
+    width: 100%;
+}
+.aboutimg{
+    padding-top: 100px;
+    padding-left: 190px;
+}
+.abouttext{
+    padding-top: 100px;
+    padding-left: 160px;
+}
+.a1{
+    color: orange;
+    font-size: 20px;
+}
+.a2{
+    color: white;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.a3{
+    color: white;
+    font-size: 16px;
+    padding-top: 25px;
+    width: 600px;
+}
+.a4{
+    color: white;
+    font-size: 16px;
+    padding: 25px 0;
+}
+.point{
+    display: flex;
+}
+.point1{
+    padding-top: 30px;
+}
+.subpoint1,.subpoint2,.subpoint3{
+    display: flex;
+}
+.arrow{
+    color: orange;
+}
+.text1,.text2,.text3{
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.point2{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.subpoint4,.subpoint5,.subpoint6{
+    display: flex;
+}
+.text4,.text5,.text6{
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.button{
+    height: 50px;
+    width: 170px;
+    background-color: orange;
+    margin-top: 45px;
+    text-align: center;
+}
+.button p{
+    padding-top: 10px;
+    color: white;
+}
+.heading1{
+    color: orange;
+    padding-top: 90px;
+    text-align: center;
+}
+.heading2{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.webdata{
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+}
+.webdevlopment img{
+    height: 100%;
+    width: 100%;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.webdevlopment,.datascience,.softwaredevlopment,.applicationdevlopment{
+    position: relative;
+}
+.webtext{
+    height: 60px;
+    width: 430px;
+    background-color: black;
+    position: absolute;
+    /* margin-left: 400px; */
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+.webtext1,.softtext1,.datatext1,.apptext1{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.webtext2,.softtext2,.datatext2,.apptext2{
+    color: orange;
+    text-align: center;
+    font-size: 15px;
+}
+.softwaredevlopment img{
+    height: 100%;
+    width: 100% ;
+    padding-left: 120px;
+}
+.softtext{
+    height: 60px;
+    width: 240px;
+    background-color: black;
+    position: absolute;
+    /* margin-left: 400px; */
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+.applicationdevlopment img{
+    height: 100%;
+    width: 100% ;
+    padding-left: 10px;
+}
+.apptext{
+    height: 60px;
+    width: 230px;
+    background-color: black;
+    position: absolute;
+    /* margin-left: 400px; */
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    bottom: 0;
+    margin-top: 35px;
+}
+.softapp{
+    display: flex;
+    padding-top: 10px;
+}
+.datascience img{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.datatext{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    /* margin-left: 400px; */
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    margin-top: 475px;
+}
+.mainheading{
+    color: orange;
+    padding-top: 90px;
+    text-align: center;
+}
+.coursesheading{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.threecourses{
+    padding-top: 10px;
+    display: flex;
+}
+.firstcourse img{
+    height: 240px;
+    width: 410px;
+}
+.mainbox,.mainbox1,.mainbox2{
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    padding-left: 110px;
+    padding-bottom: 50px;
+    top: 190px;
+}
+.subbox1,.subbox3,.subbox5{
+    background-color: orange;
+    border-right: 2px solid white;
+    padding: 4px 16px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.subbox2,.subbox4,.subbox6{
+    background-color: orange;
+    padding: 4px 16px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.firstcourse{
+    border: 4px solid white;
+    border-radius: 8px;
+    margin-left: 100px;
+}
+.courseone,.coursetwo,.coursethird{
+    position: relative;
+}
+.firstcoursetext{
+    color: white;
+    text-align: center;
+    margin-top: 20PX;
+    font-size: 35px;
+}
+.firstcoursetext1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.rating{
+    display: flex;
+}
+.star{
+    display: flex;
+    color: orange;
+    padding-left: 125px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.star i{
+    margin: 2px;
+}
+.numberrating{
+    color: white;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.secondcourse img{
+    height: 240px;
+    width: 410px; 
+}
+.secondcourse{
+    border: 4px solid white;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.secondcoursetext{
+    color: white;
+    text-align: center;
+    margin-top: 20PX;
+    font-size: 35px;
+}
+.secondcoursetext1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.rating1{
+    display: flex;
+}
+.star1{
+    display: flex;
+    color: orange;
+    padding-left: 125px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.star1 i{
+    margin: 2px;
+}
+.numberrating1{
+    color: white;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.thirdcourse img{
+    height: 240px;
+    width: 400px;
+}
+.thirdcourse{
+    border: 4px solid white;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.thirdcoursetext{
+    color: white;
+    text-align: center;
+    margin-top: 20PX;
+    font-size: 35px;
+}
+.thirdcoursetext1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.rating2{
+    display: flex;
+}
+.star2{
+    display: flex;
+    color: orange;
+    padding-left: 125px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.star2 i{
+    margin: 2px;
+}
+.numberrating2{
+    color: white;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.ownerskytech1{
+    color: orange;
+    padding-top: 50px;
+    text-align: center;
+}
+.ownerskytech2{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.aboutsir{
+    display: flex;
+    padding-top: 15px;
+}
+.owner1{
+    margin-left: 110px;
+    position: relative;
+    height: 100%;
+}
+.owner2,.owner3{
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+.nirsir,.kcsir,.pragneshsir{
+    height: 555px;
+}
+.nirsir img,.kcsir img,.pragneshsir img{
+    width: 100%;
+    height: 100%;
+}
+.about1stowner,.about2stowner,.about3stowner{
+    height: 130px;
+    width: 400px;
+    background-color: orange;
+    text-align: center;
+}
+.nsirname,.ksirname,.psirname{
+    padding-top: 30px;
+}
+.nsirdegree,.ksirdegree,.psirdegree{
+    padding-top: 5px;
+}
+.nsirexperience,.ksirexperience,.psirexperience{
+    padding-top: 5px;
+}
+.icon1,.icon2,.icon3{
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+    margin: -10px -5px;
+}
+.instagram,.facebook,.linkdin{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 2px;
+}
+.test{
+    color: orange;
+    padding-top: 50px;
+    text-align: center;
+}
+.studentssay{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 10px
+}
+.our-stu{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    justify-content:space-evenly;
+}
+.hardikimage img,.vivekimage img,.sreyanshimage img {
+   height: 100px;
+   width: 100px;
+   border-radius:100%; 
+}
+.hardikimage,.vivekimage,.sreyanshimage{
+    margin-left: 110px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 12px 0px;
+    width: 130px;
+}
+.hardikname,.sreyanshname,.vivekname{
+    padding-top: 20px;
+}
+.hardikabout,.vivekabout,.sreyanshabout{
+    width: 350px;
+    padding-top: 30px;
+}
+.skytechlastpart{
+    background-image: url('footer-bg-0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.mapcontact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutus1,.contactus1{
+    display: flex;
+    color: white;
+}
+.aboutus1{
+    padding-top: 10px;
+}
+.quicklink{
+    font-size: 23px;
+    padding: 90px 65px;
+    color: white;
+}
+.left1,.contactus,.aboutus2{
+    font-size: 18px;
+}
+.left1{
+    padding-right: 8px;
+}
+.contactskytech{
+    color: white;
+    padding: 90px 180px;
+}
+.skytechcontact{
+    font-size: 25px;
+}
+.address,.phone,.mail,.symbols{
+    display: flex;
+}
+.locationsymbol,.skytechaddress,.phonesymbol,.skytechphone,.mailsymbol,.skytechmail{
+    font-size: 16px;
+    padding-top: 15px;
+}
+.skytechaddress,.skytechphone,.skytechmail{
+    padding-left: 25px;
+}
+.skytechaddress{
+    width: 400px;
+}
+.symbols{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.insta,.facebook1,.youtube,.linkdin1{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    background-color: orange;
+    padding: 2px 4px;
+}
+.insta:hover,.facebook1:hover,.youtube:hover,.linkdin1:hover{
+    background-color: black;
+}
+.linkdin1,.youtube,.facebook1{
+    margin-left: 8px;
+}
+.skytechmap iframe{
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+}
+.copyrightandshortcut{
+    display: flex;
+    color: white;
+    padding-left: 65px;
+    justify-content: space-between;
+}
+.lastthree{
+    display: flex;
+}
+.homee{
+    font-size: 20px;
+    position: relative;
+}
+.aboutt{
+    padding-left: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.contactt{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 130px;
+}
+.homee::after,.aboutt::after{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    width: 1.5px;
+    margin-left: 13px;
+    margin-top: 4px;
+}
+.fixedbutton{
+    width: 45px;
+    background-color: orange;
+    color: white;
+    padding:6px 12px;
+    font-size: 25px;
+    height: 45px; 
+    position: fixed;
+    bottom: 55px;
+    right: 70px;
+    margin-top: 350px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .tools,.carousel-control-next,.carousel-control-prev,.hardik,.sreyansh{
+        display: none;
+    }
+    .carousel-caption{
+        top: 120px;
+        left: 20px;
+    }
+    .caption2{
+        font-size: 45px;
+        width: 100%;
+    }
+    .caption3{
+        font-size: 18px;
+        width: 100%;
+    }
+    .caption5{
+        width: 100%;
+        font-size: 41px;
+        padding-top: 10px;
+    }
+    .caption6{
+        padding-top: 10px;
+    }
+    .inskytech{
+        display: block;
+        padding: 0 20px;
+    }
+    .skilled{
+        margin: 50px 0;
+    }
+    .skilled,.Training,.Placements,.Project{
+        width: 100%;
+    }
+    .aboutus{
+        display: block;
+        padding: 20px;
+    }
+    .aboutimg{
+        padding: 40px 95px;
+    }
+    .abouttext{
+        padding: 0;
+    }
+    .a3{
+        width: 100%;
+    }
+    .point{
+        display: block;
+    }
+    .point1{
+        line-height: 2;
+    }
+    .point2{
+        padding: 0;
+        line-height: 2;
+    }
+    .webdata,.softapp{
+        display: block;
+        margin: 0;
+    }
+    .webdevlopment img{
+        height: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .softwaredevlopment img {
+        height: 100%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .softtext{
+        bottom: 9px;
+        right: 0;
+    }
+    .applicationdevlopment img {
+        height: 100%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .datascience img {
+        height: 100%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .apptext{
+        bottom: 9px;
+        right: 20px;
+    }
+    .datatext{
+        margin: 0;
+        right: 15px;
+    }
+    .threecourses{
+        display: block;
+        padding: 0 20px;
+    }
+    .firstcourse{
+        margin: 20px 0;
+    }
+    .firstcourse img {
+        height: 100%;
+        width: 100%;
+    }
+    .secondcourse{
+        margin: 20px 0;
+    }
+    .secondcourse img {
+        height: 100%;
+        width: 100%;
+    }
+    .thirdcourse{
+        margin: 20px 0;
+    }
+    .thirdcourse img {
+        height: 100%;
+        width: 100%;
+    }
+    .aboutsir{
+        display: block;
+    }
+    .owner1,.owner2,.owner3{
+        padding: 0 20px;
+        margin: 0;
+    }
+    .nirsir img,.kcsir img,.pragneshsir img{
+        width: 100%;
+    }
+    .owner2,.owner3{
+        margin-top: 20px;
+    }
+    .about1stowner,.about2stowner,.about3stowner{
+        width: 100%;
+    }
+    .icon1,.icon2,.icon3{
+        left: 50%;
+        transform: translateX(-55px);
+    }
+    .mapcontact{
+        display: block;
+    }
+    .quicklink{
+        padding: 50px 30px;
+    }
+    .contactskytech{
+        padding: 0 30px;
+    }
+    .skytechmap iframe{
+        padding: 30px 30px;
+        height: 100%;
+        width: 100%;
+    }
+    .copyrightandshortcut{
+        display: block;
+    }
+    .homee{
+        padding: 0;
+    }
+    .contactt{
+        padding-right: 0;
+    }
+    .copyright{
+        padding-left: 100px;
+    }
+    .lastthree{
+        padding-left: 100px;
+        padding-top: 15px;
+    }
+    .fixedbutton{
+        bottom: 45px;
+        right: 20px;
+    }
+    .mainbox,.mainbox1,.mainbox2{
+        top: 85%;
+        padding-left: 0;
+        left: 50%;
+        transform: translateX(-100px);
+    }
+    .rating,.rating1,.rating2{
+        justify-content: center;
+    }
+    .star,.star1,.star2{
+        padding-left: 0;
+    }
+    .contactt{
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px){
+    .tools,.hardik,.sreyansh{
+        display: none;
+    }
+    .carousel-caption{
+        top: 80px;
+        left: 80px;
+    }
+    .caption2{
+        width: 60%;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .caption3{
+        width: 100%;
+        font-size: 22px;
+    }
+    .carousel-control-prev{
+        right: 50px;
+        top: 300px;
+    }
+    .carousel-control-next{
+        right: 50px;
+        top: 360px;
+    }
+    .caption5{
+        line-height: 80px;
+    }
+    .caption6{
+        width: 100%;
+        font-size: 24px;
+    }
+    .inskytech{
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0 50px;
+    }
+    .skilled,.Placements,.Training,.Project{
+        width: 45%;
+    }
+    .skilled{
+        margin-left: 0;
+    }
+    .Placements{
+        margin-right: 0;
+    }
+    .aboutus{
+        display: block;
+        padding: 0 70px;
+    }
+    .abouttext{
+        padding: 40px 0;
+    }
+    .a3{
+        width: 100%;
+    }
+    .aboutimg{
+        padding: 50px 150px;
+    }
+    .aboutimg img{
+        height: 100%;
+        width: 100%;
+    }
+    .webdata{
+        justify-content: unset;
+        margin: 0;
+        padding: 0 50px;
+    }
+    .webdevlopment img {
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .webtext{
+        font-size: 13px;
+        width: 80%;
+    }
+    .softwaredevlopment img{
+        width: 100%;
+        height: 100%;
+        padding-left:  0;
+    }
+    .softtext{
+        top: 127px;
+    }
+    .softapp{
+        display: block;
+    }
+    .applicationdevlopment img{
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .datascience img {
+        width: 410px;
+        height: 660px;
+        padding-top: 0;
+    }
+    .datatext{
+        bottom: 0;
+        right: 10px;
+    }
+    .threecourses{
+        flex-wrap: wrap;
+        padding: 10px 50px;
+    }
+    .firstcourse{
+        margin-left: 0;
+    }
+    .firstcourse img,.secondcourse img,.thirdcourse img{
+        width:352px;
+    }
+    .secondcoursetext1{
+        font-size: 20px;
+        width: 330px;
+        padding-top: 25px;
+    }
+    .thirdcourse{
+        margin-top: 30px;
+        margin-left: 26%;
+    }
+    .mainbox,.mainbox1,.mainbox2{
+        top: 85%;
+        transform: translateX(-15px);
+    }
+    .star,.star1,.star2{
+        padding-left: 95px;
+    }
+    .aboutsir{
+        flex-wrap: wrap;
+        padding: 10px 50px;
+    }
+    .owner1{
+        margin-left: 0;
+        width: 49%;
+    }
+    .owner2{
+        margin-left: 15px;
+        width: 49%;
+    }
+    .nirsir img,.kcsir img,.pragneshsir img,.about1stowner,.about2stowner,.about3stowner{
+        width: 100%;
+    }
+    .owner3{
+        margin-top: 10px;
+        margin-left: 190px;
+    }
+    .icon1,.icon2,.icon3{
+        left: 50%;
+        transform: translateX(-80px);
+    }
+    .mapcontact{
+        flex-wrap: wrap;
+    }
+    .quicklink{
+        padding: 30px 65px;
+    }
+    .contactskytech{
+        padding: 30px 100px;
+    }
+    .homee{
+        padding-left: 250px;
+    }
+    .skytechmap iframe{
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+    .hardik,.sreyansh{
+        display: none;
+    }
+    .carousel-caption {
+        top: 100px;
+        left: 85px;
+    }
+    .sliderimg img, .sliderimg2 img {
+        object-position: -155px;
+        width: 100%;
+    }
+    .caption2{
+        width: 100%;
+        font-size: 87px;
+        line-height: 85px;
+    }
+    .caption3{
+        width: 80%;
+        font-size: 21px;
+    }
+    .caption5{
+        font-size: 85px;
+        line-height: 81px;
+    }
+    .caption6{
+        width: 100%;
+        font-size: 26px;
+    }
+    .inskytech{
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+    .Placements{
+        margin-right: 0;
+    }
+    .skilled{
+        margin-left: 0;
+    }
+    .skilled,.Placements,.Training,.Project{
+        width: 23%;
+        margin-top: 0;
+    }
+    .aboutimg{
+        padding: 0;
+        width: 85%;
+    }
+    .abouttext{
+        padding-left: 30px;
+        padding-top: 0;
+    }
+    .aboutus{
+        padding: 0 90px;
+    }
+    .a3{
+        width: 85%;
+    }
+    .webdata{
+        justify-content: unset;
+        margin-right: 0;
+        padding: 0 40px;
+    }
+    .webdata1{
+        width: 60%;
+    }
+    .webdevlopment img {
+        height: 100%;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .webtext{
+        font-size: 18px;
+        width: 65%;
+    }
+    .datascience img {
+        width: 100%;
+        height: 600px;
+    }
+    .datatext{
+        top: 65px;
+    }
+    .softwaredevlopment img {
+        height: 160px;
+        width: 290px;
+        padding-left: 0;
+    }
+    .softtext{
+        top:100px;
+        left:90px;
+        font-size: 18px;
+        width: 200px;
+    }
+    .applicationdevlopment img{
+        height: 170px;
+        width: 293px;
+    }
+    .apptext{
+        top: 75px;
+        left: 114px;
+        width: 180px;
+        font-size: 16px;
+    }
+    .firstcourse{
+        margin: 0;
+    }
+    .firstcourse img,.secondcourse img,.thirdcourse img{
+        width: 100%;
+    }
+    .threecourses{
+        justify-content: center;
+        padding: 10px 40px;
+    }
+    .secondcoursetext1{
+        width: 100%;
+        font-size: 19px;
+    }
+    .mainbox,.mainbox1,.mainbox2{
+        padding-left: 50px;
+    }
+    .star,.star1,.star2{
+        padding-left: 70px;
+    }
+    .owner1{
+        margin-left: 0;
+    }
+    .nirsir img, .kcsir img, .pragneshsir img {
+        width: 100%;
+    }
+    .about1stowner, .about2stowner, .about3stowner {
+        width: 100%;
+    }
+    .aboutsir{
+        padding: 0 40px;
+    }
+    .icon1,.icon2,.icon3{
+        left: 100px;
+    }
+    .owner2,.owner3{
+        margin-left: 20px;
+    }
+    .quicklink{
+        padding: 30px 15px;
+    }
+    .contactskytech{
+        padding: 30px 20px;
+    }
+    .homee{
+        padding-left: 500px;
+    }
+    .skytechmap iframe{
+        padding: 0;
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1399px){
+    .sliderimg img, .sliderimg2 img {
+        object-position: -30px;
+        width: 100%;
+    }
+    .carousel-caption {
+        top: 100px;
+        left: 85px;
+    }
+    .caption2{
+        width: 100%;
+        font-size: 87px;
+        line-height: 85px;
+    }
+    .caption3{
+        width: 80%;
+        font-size: 21px;
+    }
+    .caption5{
+        font-size: 85px;
+        line-height: 81px;
+    }
+    .caption6{
+        width: 100%;
+        font-size: 26px;
+    }
+    .inskytech{
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    .Placements{
+        margin-right: 0;
+    }
+    .skilled{
+        margin-left: 0;
+    }
+    .skilled,.Placements,.Training,.Project{
+        width: 23%;
+        margin-top: 0;
+    }
+    .aboutimg{
+        width: 100%;
+        padding: 0;
+    }
+    .aboutimg img{
+        width: 90%;
+        height: 100%;
+    }
+    .abouttext{
+        padding: 0;
+    }
+    .aboutus{
+        padding: 0 150px;
+    }
+    .a3{
+        width: 85%;
+    }
+    .webdata{
+        justify-content: unset;
+        margin-right: 0;
+        padding: 0 50px;
+    }
+    .webdata1{
+        width: 60%;
+    }
+    .webdevlopment img {
+        height: 100%;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .webtext{
+        font-size: 18px;
+        width: 65%;
+    }
+    .datascience img {
+        width: 100%;
+        height: 600px;
+    }
+    .datatext{
+        top: 66px;
+        right: -1px;
+    }
+    .softwaredevlopment img {
+        height: 160px;
+        width: 290px;
+        padding-left: 0;
+    }
+    .softtext{
+        top:101px;
+        left:90px;
+        font-size: 18px;
+        width: 200px;
+    }
+    .applicationdevlopment img{
+        height: 170px;
+        width: 293px;
+    }
+    .apptext{
+        top: 76px;
+        left: 114px;
+        width: 180px;
+        font-size: 16px;
+    }
+    .firstcourse{
+        margin: 0;
+    }
+    .firstcourse img,.secondcourse img,.thirdcourse img{
+        width: 100%;
+    }
+    .threecourses{
+        justify-content: center;
+        padding: 10px 50px;
+    }
+    .secondcoursetext1{
+        width: 100%;
+        font-size: 19px;
+    }
+    .mainbox,.mainbox1,.mainbox2{
+        top: 205px;
+    }
+    .star,.star1,.star2{
+        padding-left: 105px;
+    }
+    .owner1{
+        margin-left: 0;
+    }
+    .nirsir img, .kcsir img, .pragneshsir img {
+        width: 100%;
+    }
+    .about1stowner, .about2stowner, .about3stowner {
+        width: 100%;
+    }
+    .icon1,.icon2,.icon3{
+        left: 130px;
+    }
+    .aboutsir{
+        padding: 20px 50px;
+    }
+    .owner2,.owner3{
+        margin-left: 20px;
+    }
+    .quicklink{
+        padding: 30px 15px;
+    }
+    .contactskytech{
+        padding: 30px 20px;
+    }
+    .homee{
+        padding-left: 500px;
+    }
+
+}
+
+
+@media only screen and (min-width : 1400px) and (max-width : 1600px){
+    .sliderimg img, .sliderimg2 img {
+        object-position: 0px;
+        width: 100%;
+    }
+    .carousel-caption {
+        top: 250px;
+        left: 85px;
+    }
+    .caption2{
+        width: 100%;
+        font-size: 90px;
+        line-height: 85px;
+    }
+    .caption3{
+        width: 76%;
+        font-size: 21px;
+    }
+    .caption5{
+        font-size: 85px;
+        line-height: 81px;
+    }
+    .caption6{
+        width: 100%;
+        font-size: 26px;
+    }
+    .inskytech{
+        flex-wrap: wrap;
+        padding: 50px 100px;
+    }
+    .Placements{
+        margin-right: 0;
+    }
+    .skilled{
+        margin-left: 0;
+    }
+    .skilled,.Placements,.Training,.Project{
+        width: 23%;
+        margin-top: 0;
+    }
+    .aboutimg{
+        padding: 0;
+        width: 70%;
+    }
+    .abouttext{
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    .aboutus{
+        padding: 0 180px;
+    }
+    .a3{
+        width: 85%;
+    }
+    .webdata{
+        justify-content: unset;
+        margin-right: 0;
+        padding: 0 100px;
+    }
+    .webdata1{
+        width: 60%;
+    }
+    .webdevlopment img {
+        height: 100%;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .webtext{
+        font-size: 18px;
+        width: 65%;
+    }
+    .datascience img {
+        width: 100%;
+        height: 677px;
+    }
+    .datatext{
+        top: 143px;
+        right: -1px;
+        width: 240px;
+        font-size: 24px;
+    }
+    .softwaredevlopment img {
+        height: 160px;
+        width: 351px;
+        padding-left: 0;
+    }
+    .softtext{
+        top:100px;
+        right: -1px;
+        font-size: 19px;
+        width: 215px;
+    }
+    .applicationdevlopment img{
+        height: 170px;
+        width: 351px;
+    }
+    .apptext{
+        top: 75px;
+        right: -1px;
+        width: 220px;
+        font-size: 18px;
+    }
+    .firstcourse{
+        margin: 0;
+    }
+    .firstcourse img,.secondcourse img,.thirdcourse img{
+        width: 100%;
+    }
+    .threecourses{
+        justify-content: center;
+        padding: 20px 100px;
+    }
+    .aboutsir{
+        padding: 10px 100px;
+    }
+    .owner1{
+        margin-left: 0;
+        width: 100%;
+    }
+    .nirsir img, .kcsir img, .pragneshsir img {
+        width: 100%;
+    }
+    .mainbox,.mainbox1,.mainbox2{
+        top: 205px;
+    }
+    .about1stowner, .about2stowner, .about3stowner {
+        width: 100%;
+    }
+    .icon1,.icon2,.icon3{
+        left: 160px;
+    }
+    .owner2,.owner3{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .quicklink{
+        padding: 30px 15px;
+    }
+    .contactskytech{
+        padding: 30px 20px;
+    }
+    .homee{
+        padding-left: 500px;
+    }
+
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1400px){
+    .sliderimg img,.sliderimg2 img{
+        object-position: 0px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 849px){
+    .firstcourse img, .secondcourse img, .thirdcourse img {
+        width: 311px;
+    }
+    .secondcoursetext1{
+        width: 300px;
+    }
+    .mainbox, .mainbox1, .mainbox2 {
+        transform: translateX(-35px)
+    }
+    .star, .star1, .star2 {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 370px){
+    .lastthree{
+        padding-left: 30px;
+    }
+    .copyright{
+        padding-left: 20px;
+    }
+}
+
+
